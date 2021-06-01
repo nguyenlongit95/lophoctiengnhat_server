@@ -1,0 +1,4 @@
+ ssh -i lophoctiengnhat.pem ec2-user@13.58.8.1
+
+
+IP: http://13.58.8.1/

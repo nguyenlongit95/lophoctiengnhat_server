@@ -1,0 +1,220 @@
+.font-medium {
+    font-size: medium;
+}
+
+.txt-link-title {
+    color: white;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+.txt-link-title:hover {
+    cursor: pointer;
+    color: ghostwhite;
+    text-decoration: none;
+}
+.info-txt-link {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.w3layouts_gallery_grid1_pos {
+    left: 40px !important;
+    top: 25px !important;
+}
+.agile_gallery_grid {
+    height: 250px !important;
+}
+.hr-class {
+    height: 1px;
+    background: #00000052;
+}
+#trac-nghiem {
+    margin-top: 25px;
+}
+.title-table-quiz {
+    width: 100%;
+    min-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F25757;
+    background-color: #f7dec3;
+}
+.font-size-18 {
+    font-size: 18px;
+}
+.font-size-35 {
+    font-size: 35px;
+}
+.font-size-2-5rem {
+    font-size: 2.5rem;
+}
+.img-box-height-165 {
+    height: 165px;
+}
+.color-black {
+    color: black;
+}
+.width-50-per {
+    width: 50%;
+}
+.margin-top-15 {
+    margin-top: 15px;
+}
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+.padding-left-25 {
+    padding-left: 25px;
+}
+/*
+* Custom CSS for quiz
+*/
+.quiz-wrap {
+    height: 75px;
+}
+.cauhoi-wrap {
+    padding: 10px!important;
+}
+.cauhoi {
+    font-size: 23px;
+    color: #103b5c9e;
+}
+.answer {
+    font-size: 18px;
+    color: #0000005e;
+}
+.customcheck {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Hide the browser's default checkbox */
+.customcheck input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+/* On mouse-over, add a grey background color */
+.customcheck:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+/* When the checkbox is checked, add a blue background */
+.customcheck input:checked ~ .checkmark {
+    background-color: rgb(73, 142, 17);
+    border-radius: 5px;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.customcheck input:checked ~ .checkmark:after {
+    display: block;
+}
+/* Style the checkmark/indicator */
+.customcheck .checkmark:after {
+    left: 10px;
+    top: 6px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.wrong-answer::after {
+    color: white;
+    font-size: 20px;
+    content: "\d7";
+    left: 6px !important;
+    top: -1px !important;
+    border: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+}
+.correct-checkmark::after {
+    display: block;
+    left: 10px;
+    top: 6px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(
+        45deg
+    );
+    -ms-transform: rotate(45deg);
+    transform: rotate(
+        45deg
+    );
+}
+
+#table-list-course-free {
+    width: 100%;
+}
+#table-list-course-free td {
+    padding: 15px;
+}
+
+.dropdown-menu>li>a {
+    padding: 10px 30px !important;
+}
+.dropdown-menu>li>a:hover {
+    color: white !important;
+    background-color: #2267a7f2 !important;
+}
+.dropdown-menu {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.absolute-right {
+    text-align: right;
+    position: absolute;
+    right: 30px;
+    top: 17px;
+    color: whitesmoke;
+}
+
+.padding-top-20 {
+    padding-top: 20px;
+}
+.padding-35 {
+    padding: 35px;
+}
+#tabs-title-detail-users li {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+#tabs-title-detail-users .active a {
+    background-color: #337ab7;
+    color: white;
+}
+#main-content-section {
+    border: 2px solid #2267a7;
+}
+.img-avatar {
+    padding: 25px;
+    width: 230px;
+    height: 250px;
+}
